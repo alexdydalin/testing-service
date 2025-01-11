@@ -210,6 +210,19 @@ footer .blocks ul li {
     transform: scale(1.1);
 }
 
+textarea[name="comment"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 60px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.15s ease-in-out; }
+
 .center {
     display: flex;
     align-items: center;
@@ -417,4 +430,10 @@ input[type=radio]:checked + label {
 
 .answer.open {
     max-height: 100vh;
+}
+
+
+.text_input {
+    width: 500px;
+    padding: 30px 30px 30px 30px;
 }

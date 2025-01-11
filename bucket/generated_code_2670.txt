@@ -1,0 +1,19 @@
+java
+public class LoginPage {
+
+    private WebDriver driver;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    // Методы для взаимодействия с элементами на странице
+    public void open() {
+        driver.get("http://your_login_url");
+    }
+
+    public void login(String username, String password) {
+        // Метод для имитации логина
+        // Здесь можно добавить проверку на успех авторизации
+    }
+}

@@ -1,0 +1,10 @@
+java
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"classpath:features/entry_through_otp.feature"},
+                glue = {"stepDefinitions"})
+public class EntryThroughOtpTest {
+}

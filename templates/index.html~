@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autotest Website</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="templates/css/main.css">
 </head>
 
 <body>
@@ -13,10 +13,10 @@
         <span class="logo">АвтоТесты</span>
         <navigation>
             <ul>
-                <li class="active"><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\index.html">O продукте</a></li>
-                <li><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\loading.html">Загрузка</a></li>
-                <li><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\history.html">История</a></li>
-                <li class="btn"><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\help.html">Помощь</a></li>
+                <li class="active"><a href ="./index.html">O продукте</a></li>
+                <li><a href ="./loading.html">Загрузка</a></li>
+                <li><a href ="./history.html">История</a></li>
+                <li class="btn"><a href ="./help.html">Помощь</a></li>
             </ul>
         </navigation>
     </header>
@@ -26,7 +26,7 @@
             <h2>Будущее тестирования — сегодня</h2>
             <h1>Автоматизация тестирования c помощью ИИ</h1>
             <p>Создавайте тест-кейсы и автотесты быстро и эффективно!</p>
-            <a href ="C:\Users\phder\OneDrive\Рабочий стол\project\loading.html"><button class="btn">Начать бесплатно</button></a>
+            <a href =".\loading.html"><button class="btn">Начать бесплатно</button></a>
         </div>
         <img src="img/imagine.svg" alt="">
     </div>

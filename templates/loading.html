@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autotest Website</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./static/main.css">
 </head>
 
 <body>
@@ -13,22 +13,33 @@
         <span class="logo">АвтоТесты</span>
         <navigation>
             <ul>
-                <li><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\index.html">O продукте</a></li>
-                <li class="active"><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\loading.html">Загрузка</a></li>
-                <li><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\history.html">История</a></li>
-                <li class="btn"><a href ="C:\Users\phder\OneDrive\Рабочий стол\project\help.html">Помощь</a></li>
+                <li class="active"><a href ="/">O продукте</a></li>
+                <li><a href ="/loading">Загрузка</a></li>
+                <li><a href ="/history">История</a></li>
+                <li class="btn"><a href ="/help">Помощь</a></li>
             </ul>
         </navigation>
     </header>
     
     <div class="container advantages">
-        <h3>Загрузка файлов для анализа и генерации <br> тест-кейсов</h3>
-        <h4>Загрузите ваши тестовые наборы и дайте искусственному <br> интеллекту оптимизировать их!</h4>
+        <h3>Вставьте текст в поле ниже в формате Gherkin</h3>
+        <h4>Gherkin язык описания тестов использует специальную нотацию (синтаксис), которая определяет структуру теста и набор ключевых слов</h4>
+
         <div class="center container">
             <div class="center--info">
-                <a href ="C:\Users\phder\OneDrive\Рабочий стол\project\loading.html"><button class="btn">Выбрать файл</button></a>
+                <form method="POST" action="/loading">
+                    <textarea name="text_input" rows="10" cols="50" class="text_input"></textarea><br>
+                    <input type="submit" value="Отправить" class="btn" style="margin: 10% 0 0 25%">
+                </form>
             </div>
         </div>
+
+
+
+        <h3>Загрузка файлов для анализа и генерации <br> тест-кейсов</h3>
+        <h4>Загрузите ваши тестовые наборы и дайте искусственному <br> интеллекту оптимизировать их!</h4>
+    
+        
         <div class="instruct container">
             <div class="instruct--info">
                 <h3>Инструкция по загрузке</h3>
@@ -44,9 +55,15 @@
     </div>
     
     </div>
+    <div class="center container">
+            <div class="center--info">
+                <a href ="C:\Users\phder\OneDrive\Рабочий стол\project\loading.html"><button class="btn" style="margin: 10% 0 0 0">Выбрать файл</button></a>
+            </div>
+        </div>
+
     <div class="file">
         <div class="file--info">
-            <a href ="C:\Users\phder\OneDrive\Рабочий стол\project\upload.html"><button class="btn">Сгенерировать файл</button></a>
+            <a href ="/upload"><button class="btn">Сгенерировать файл</button></a>
         </div>
     </div>
 </div>

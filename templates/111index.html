@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер Gherkin в Java</title>
+</head>
+<body>
+    <h1>Конвертер Gherkin в Java</h1>
+    <form action="/convert" method="post">
+        <label for="expansion">Расширение:</label><br>
+        <select id="expansion" name="expansion">
+            <option value="txt">TXT</option>
+            <option value="feature">FEATURE</option>
+        </select><br><br>
+        <label for="gherkin">Текст Gherkin:</label><br>
+        <textarea id="gherkin" name="gherkin" rows="10" cols="50"></textarea><br><br>
+        <button type="submit">Преобразовать</button>
+    </form>
+</body>
+</html>
