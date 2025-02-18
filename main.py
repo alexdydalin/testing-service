@@ -7,7 +7,7 @@ import random
 
 app = Flask(__name__)
 
-condition = ''' Текст ниже  написан на языке описания алгоритвов Ghirkin, переведи его в код на Java с помощью  Cucamber \n '''
+condition = ''' *** '''
 
 @app.route('/' , methods=['POST', 'GET'])
 def index():
