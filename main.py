@@ -77,8 +77,8 @@ def get_token():
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Accept': 'application/json',
-        'RqUID': 'a3f6728e-58a7-4e8b-a9a2-a051721570f1',
-        'Authorization': 'Basic ODZlMTljZTgtNjIxOC00MDJjLTkxOWYtNTliZWMzMzk2ZmEwOjk3YmMwZmM0LTIxNTktNDdiMS05MWI3LTlkODM3NWZkZDAyNA=='
+        'RqUID': '***',
+        'Authorization': 'Basic ***'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload, verify=False)
