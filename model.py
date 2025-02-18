@@ -13,8 +13,8 @@ def get_token():
   headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
     'Accept': 'application/json',
-    'RqUID': 'a3f6728e-58a7-4e8b-a9a2-a051721570f1',
-    'Authorization': 'Basic ODZlMTljZTgtNjIxOC00MDJjLTkxOWYtNTliZWMzMzk2ZmEwOjk3YmMwZmM0LTIxNTktNDdiMS05MWI3LTlkODM3NWZkZDAyNA=='
+    'RqUID': '***',
+    'Authorization': 'Basic ***'
   }
 
   response = requests.request("POST", url, headers=headers, data=payload, verify=False)
@@ -53,32 +53,3 @@ def get_generate_result(token, ghirkin_text):
   ans_message = ans_message.split("```")
 
   return (ans_message[1])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Authorization Key
-# ODZlMTljZTgtNjIxOC00MDJjLTkxOWYtNTliZWMzMzk2ZmEwOjk3YmMwZmM0LTIxNTktNDdiMS05MWI3LTlkODM3NWZkZDAyNA==
-#
-# Client Secret
-# 97bc0fc4-2159-47b1-91b7-9d8375fdd024
-#
-# Client ID
-# 86e19ce8-6218-402c-919f-59bec3396fa0
